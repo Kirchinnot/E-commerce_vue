@@ -60,6 +60,11 @@ const filteredProducts = computed(() => {
 </template>
 
 <style scoped>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Container principal */
 .products-page {
   max-width: 1200px;

@@ -23,6 +23,11 @@ defineProps({
 
 
 <style scoped>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .nav {
   position: sticky;
   top: 0;
