@@ -15,7 +15,7 @@ onMounted(async () => {
   try {
     const result = await fetch(url);
     const data = await result.json();
-    console.log(data); //Vérification de data dans la console
+    // console.log(data); //Vérification de data dans la console
     products.value = data.products; //Mettre le contenu du data dans notre tableau réactif(products)
   } catch (err) {
     error.value = "Erreur lors du chargement des produits";
